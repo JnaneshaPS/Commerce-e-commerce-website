@@ -4,7 +4,7 @@ import { Typography, List, ListItem, ListItemText } from "@material-ui/core";
 const Review = ({ checkoutToken }) => (
   <>
     <Typography variant="h6" gutterBottom>
-      Order summary
+      Order Summary
     </Typography>
     <List disablePadding>
       {checkoutToken.live.line_items.map((product) => (
