@@ -110,7 +110,7 @@ const AddressForm = ({ checkoutToken, test }) => {
               </Select>
             </Grid>
             <Grid item xs={12} sm={6}>
-              <InputLabel>Shipping Subdivisions</InputLabel>
+              <InputLabel>Shipping subdivisions</InputLabel>
               <Select
                 value={shippingSubdivision}
                 fullWidth
