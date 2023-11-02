@@ -16,7 +16,7 @@ const Cart = ({
     <Typography variant="subtitle2">
       You have added No products to the cart.
       <Link to="/" className={classes.link}>
-        Start Adding Some
+        Start adding some items
       </Link>
     </Typography>
   );
