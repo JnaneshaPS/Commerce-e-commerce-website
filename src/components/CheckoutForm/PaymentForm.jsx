@@ -67,7 +67,7 @@ const PaymentForm = ({
       <Review checkoutToken={checkoutToken} />
       <Divider />
       <Typography variant="h6" gutterBottom style={{ margin: "20px 0" }}>
-        Payment method
+        payment method
       </Typography>
       <Elements stripe={stripePromise}>
         <ElementsConsumer>
